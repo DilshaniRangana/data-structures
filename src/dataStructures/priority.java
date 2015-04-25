@@ -29,8 +29,8 @@ public class priority {
 				int i;
 				for ( i = rear; i !=-1  && queue[i] > num  ; i--) {
 					
-					int temp=queue[i];
-					queue[i+1]=temp;
+					
+					queue[i+1]=queue[i];
 					
 				}
 				queue[i+1]=num;
